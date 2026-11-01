@@ -8,7 +8,7 @@
 <body>
     <header>
     <h1>Histoire du Web - Chronologie détaillée et perspectives</h1>
-<p>Document pédagogique long, détaillé et référencé présentant l'histoire conceptuelle et technique du World Wide Web (شبكة الويب العالمية) depuis les précurseurs intellectuels jusqu'aux projets de décentralisation et au Web sémantique. Il contient des contextes, des descriptions techniques, des acteurs clefs et des pistes pour l'avenir.</p>
+<p>Document pédagogique long, détaillé et référencé présentant l'histoire conceptuelle et technique du World Wide Web <bdi>(شبكة الويب العالمية)</bdi>depuis les précurseurs intellectuels jusqu'aux projets de décentralisation et au Web sémantique. Il contient des contextes, des descriptions techniques, des acteurs clefs et des pistes pour l'avenir.</p>
 <audio controls>
         <source src="ressources/music.mp3" type="audio/mpeg">
         Votre navigateur ne supporte pas l'élément audio.
@@ -119,7 +119,54 @@ le Web.</p>
         </section>
 
         <section id="semantic">
-            
+            <h2>3. Le Web sémantique, Linked Data et Solid</h2>
+            <article>
+                <h3>Le Web sémantique : objectifs et composants</h3>
+                <p>Le Web sémantique vise à ajouter une couche de métadonnées et de signification aux contenus Web afin que
+les machines puissent <em>comprendre</em> et raisonner sur les données. Les technologies centrales incluent :</p>
+                <ul>
+                    <li><strong>RDF</strong> : (Resource Description Framework) : modèle de triplets pour représenter les données.</li>
+                    <li><strong>OWL</strong> : ontologies pour définir des vocabulaires et relations complexes.</li>
+                    <li><strong>SPARQL</strong> : langage de requête pour interroger des graphes RDF.</li>
+                    <li><strong>Microformats et JSON-LD</strong> : moyens d'encoder des métadonnées dans les pages web.</li>
+                </ul>
+                <p>Le Web sémantique ambitionne d'améliorer l'interopérabilité des données et d'alimenter des agents
+intelligents capables de combiner des sources hétérogènes.</p>
+            </article>
+            <article>
+                <h3>Linked Data</h3>
+                <p>Tim Berners-Lee a proposé des principes pour publier des données liées (Linked Data) : utiliser des URIs,
+fournir des descriptions, lier vers d'autres données. Ces principes favorisent la constitution d'un web de
+données (Data Web) où des ressources sont interconnectées sémantiquement.
+</p>
+              <figure>
+                <img src="ressources/LOD.png" alt="LOD evolution" hauteur="250">
+                <figcaption>
+                    Source:
+                    <a href="https://www.researchgate.net/figure/Growth-of-Linked-Open-Data-since-2007-1-The-amount-of-data-sets-published-as-LOD-have_fig2_331748480" target="_blank">The Linked Data Wiki</a>
+                </figcaption>Data
+             </figure>
+             
+            </article>
+            <article>
+                <h3>Solid (Social Linked Data)</h3>
+                <p>Tim Berners Lee:</p>
+                <p><q>The Web as I envisaged it, we have not seen it yet.</q></p>
+                <p>Solid est une initiative de Tim Berners-Lee visant à redonner le contrôle des données personnelles aux
+utilisateurs. L'idée : chaque utilisateur dispose d'un <strong>pod</strong> (personal online data store) où il conserve ses
+données, et les applications accèdent aux données avec autorisation explicite. Solid combine les idées du Web
+sémantique et des Linked Data pour proposer une approche décentralisée et respectueuse de la vie privée.</p>
+                <figure>
+                    <img src="ressources/solid.png" alt="Solid principale" height="250">
+                    <figcaption>
+                        Source:
+                        <a href="https://rubenverborgh.github.io/Solid-DeSemWeb-2018/" target="_blank">Solid: Linked Data for personal data management</a>
+                    </figcaption>
+                </figure>
+                <p><b>Avantages</b> : autonomie des utilisateurs, séparation des données et des services, interopérabilité des données
+via RDF/JSON-LD. Limites : adoption encore limitée, défis d'expérience utilisateur et d'infrastructure.</p>
+<p><b>Ruben Verborgh:</b></p>
+            </article>
         </section>
 
         <section id="resume">
